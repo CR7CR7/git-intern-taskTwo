@@ -1,2 +1,5 @@
 # git-intern-taskTwo
 Number Guessing Game 
+This is a Java program that generates a random number between 1 and 100 and prompts the user to guess the number. The program uses the Random class from the java.util package to generate random numbers and the Scanner class from the same package to read user input.
+The program initializes the score and round number to zero and loops until the user wants to quit. In each round, it generates a random number between 1 and 100, initializes the number of attempts and the user’s guess to zero, and prompts the user to guess the number. The program then loops until the user guesses the number or runs out of attempts. If the user guesses the number correctly, the program calculates the points based on the number of attempts, updates the score, and displays it. If the user runs out of attempts, the program displays a message indicating that they ran out of attempts.
+The program then increments the round number, asks the user if they want to play another round or quit, reads their answer from the scanner, and checks if they want to quit. If they want to quit, it sets play to false and displays their final score.
